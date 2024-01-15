@@ -3,68 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Wishes</title>
+    <title>Your Name - Resume</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffdab9; /* PeachPuff */
-            text-align: center;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
 
         header {
-            background-color: #ff6347; /* Tomato */
-            color: #fff;
-            padding: 1em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
         }
 
         section {
-            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
         }
 
         footer {
-            background-color: #ff6347;
-            color: #fff;
             text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        button {
-            background-color: #4caf50; /* Green */
-            color: #fff;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Happy Birthday, [Friend's Name]!</h1>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
     </header>
 
     <section>
-        <p>Wishing you a day filled with love, joy, and amazing surprises! May this year bring you all the happiness you deserve.</p>
-        <img src="birthday_cake.jpg" alt="Birthday Cake" width="300">
-        <p>Click the button below for a special birthday message:</p>
-        <button onclick="displayBirthdayMessage()">Open Birthday Message</button>
-        <p id="birthdayMessage" style="display: none;">🎉 Happy Birthday! 🎉 May your day be as special as you are!</p>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>LinkedIn: linkedin.com/in/yourname</li>
+            <li>GitHub: github.com/yourname</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>University Name</strong> - Bachelor of Science in Computer Science (Year Graduated)</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <p><strong>Company Name</strong> - Web Developer (Month Year - Present)</p>
+        <ul>
+            <li>Developed and maintained responsive web applications using HTML, CSS, and JavaScript.</li>
+            <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>React.js, Node.js</li>
+            <li>Git, GitHub</li>
+            <li>Responsive Web Design</li>
+        </ul>
     </section>
 
     <footer>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-
-    <script>
-        function displayBirthdayMessage() {
-            document.getElementById("birthdayMessage").style.display = "block";
-        }
-    </script>
 </body>
 </html>
